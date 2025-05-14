@@ -1,4 +1,4 @@
-package net.edward.gemmod;
+package net.coolfalcon5298.gemmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
