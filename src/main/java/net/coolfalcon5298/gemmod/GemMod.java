@@ -1,6 +1,7 @@
 package net.coolfalcon5298.gemmod;
 
 import com.mojang.logging.LogUtils;
+import net.coolfalcon5298.gemmod.block.ModBlocks;
 import net.coolfalcon5298.gemmod.item.ModCreativeModeTabs;
 import net.coolfalcon5298.gemmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,6 +33,7 @@ public class GemMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -48,10 +50,7 @@ public class GemMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
