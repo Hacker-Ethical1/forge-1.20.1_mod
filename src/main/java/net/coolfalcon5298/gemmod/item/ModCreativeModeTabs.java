@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.METAL_DETECTOR.get());
 
+                        output.accept(ModItems.STRAWBERRY.get());
+
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
