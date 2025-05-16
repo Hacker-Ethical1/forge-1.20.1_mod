@@ -10,5 +10,7 @@
   "block.gemmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.gemmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
+  "item.gemmod.metal_detector": "Metal Detector",
+
   "creativetab.gem_tab": "Gem Mod"
 }
