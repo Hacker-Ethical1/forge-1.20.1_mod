@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "gemmod:block/sapphire_pressure_plate"
+    },
+    "powered=true": {
+      "model": "gemmod:block/sapphire_pressure_plate_down"
+    }
+  }
+}

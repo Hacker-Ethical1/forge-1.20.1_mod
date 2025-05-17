@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gemmod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "gemmod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "gemmod:block/sapphire_slab_top"
+    }
+  }
+}

@@ -22,5 +22,15 @@
 
   "block.tooltip.gemmod.sound_block": "Make A Sound When Right-Clicked",
 
+  "block.gemmod.sapphire_stairs": "Sapphire Stairs",
+  "block.gemmod.sapphire_slab": "Sapphire Slab",
+  "block.gemmod.sapphire_button": "Sapphire Button",
+  "block.gemmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.gemmod.sapphire_fence": "Sapphire Fence",
+  "block.gemmod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.gemmod.sapphire_wall": "Sapphire Wall",
+  "block.gemmod.sapphire_door": "Sapphire Door",
+  "block.gemmod.sapphire_trapdoor": "Sapphire Trapdoor",
+
   "creativetab.gem_tab": "Gem Mod"
 }
