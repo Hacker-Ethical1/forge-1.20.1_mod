@@ -18,5 +18,9 @@
 
   "item.gemmod.pine_cone": "Pine Cone",
 
+  "item.tooltip.gemmod.metal_detector": "Finds Ores!",
+
+  "block.tooltip.gemmod.sound_block": "Make A Sound When Right-Clicked",
+
   "creativetab.gem_tab": "Gem Mod"
 }
