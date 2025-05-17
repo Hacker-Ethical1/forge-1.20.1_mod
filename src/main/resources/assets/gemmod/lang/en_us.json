@@ -14,11 +14,14 @@
 
   "item.gemmod.metal_detector": "Metal Detector",
 
+  "item.gemmod.sapphire_staff": "Sapphire Staff",
+
   "item.gemmod.strawberry": "Strawberry",
 
   "item.gemmod.pine_cone": "Pine Cone",
 
   "item.tooltip.gemmod.metal_detector": "Finds Ores!",
+  "item.tooltip.gemmod.sapphire_staff": "Yeets Mobs!",
 
   "block.tooltip.gemmod.sound_block": "Make A Sound When Right-Clicked",
 

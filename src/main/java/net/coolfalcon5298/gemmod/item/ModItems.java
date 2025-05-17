@@ -3,6 +3,7 @@ package net.coolfalcon5298.gemmod.item;
 import net.coolfalcon5298.gemmod.GemMod;
 import net.coolfalcon5298.gemmod.item.custom.FuelItem;
 import net.coolfalcon5298.gemmod.item.custom.MetalDetectorItem;
+import net.coolfalcon5298.gemmod.item.custom.SapphireStaffItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +28,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
+            () -> new SapphireStaffItem(new Item.Properties().stacksTo(1).durability(20)));
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(), 400));
