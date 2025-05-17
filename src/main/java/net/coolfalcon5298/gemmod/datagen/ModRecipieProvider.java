@@ -50,7 +50,7 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_TRAPDOOR.get(), 2)
                 .pattern("BBB")
                 .pattern("BBB")
-                .pattern("")
+                .pattern("   ")
                 .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
                 .save(pWriter);

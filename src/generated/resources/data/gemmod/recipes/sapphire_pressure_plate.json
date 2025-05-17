@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "gemmod:sapphire_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BB ",
+    "   "
+  ],
+  "result": {
+    "item": "gemmod:sapphire_pressure_plate"
+  },
+  "show_notification": true
+}

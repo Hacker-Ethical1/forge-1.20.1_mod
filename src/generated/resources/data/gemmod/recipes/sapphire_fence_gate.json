@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "gemmod:sapphire_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SBS",
+    "SBS",
+    "   "
+  ],
+  "result": {
+    "item": "gemmod:sapphire_fence_gate"
+  },
+  "show_notification": true
+}

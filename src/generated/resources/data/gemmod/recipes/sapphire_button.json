@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gemmod:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "gemmod:sapphire_button"
+  }
+}
