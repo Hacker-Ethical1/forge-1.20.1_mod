@@ -47,6 +47,69 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_TRAPDOOR.get(), 2)
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_DOOR.get(), 3)
+                .pattern("BB ")
+                .pattern("BB ")
+                .pattern("BB ")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BUTTON.get())
+                .requires(ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_STAIRS.get(), 4)
+                .pattern("B  ")
+                .pattern("BB ")
+                .pattern("BBB")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("   ")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern("BB ")
+                .pattern("   ")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE.get(), 3)
+                .pattern("BSB")
+                .pattern("BSB")
+                .pattern("   ")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE_GATE.get())
+                .pattern("SBS")
+                .pattern("SBS")
+                .pattern("   ")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get(), 6)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMELTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTIme, pGroup, "_from_smelting");
