@@ -1,6 +1,7 @@
 package net.coolfalcon5298.gemmod.item.custom;
 
 import net.coolfalcon5298.gemmod.block.ModBlocks;
+import net.coolfalcon5298.gemmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -63,6 +64,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isOre(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.GOLD_ORE) || state.is(Blocks.REDSTONE_ORE) || state.is(Blocks.LAPIS_ORE) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.EMERALD_ORE) || state.is(Blocks.NETHER_QUARTZ_ORE) || state.is(Blocks.NETHER_GOLD_ORE) || state.is(Blocks.DEEPSLATE_IRON_ORE) || state.is(Blocks.DEEPSLATE_GOLD_ORE) || state.is(Blocks.DEEPSLATE_REDSTONE_ORE) || state.is(Blocks.DEEPSLATE_LAPIS_ORE) || state.is(Blocks.DEEPSLATE_DIAMOND_ORE) || state.is(Blocks.DEEPSLATE_EMERALD_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_ORES);
     }
 }
