@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier SAPPHIRE = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2500, 12f, 6f, 20,
+            new ForgeTier(5, 2500, 9f, 6f, 20,
                     ModTags.Blocks.NEEDS_SAPPHIRE_TOOL, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
             new ResourceLocation(GemMod.MOD_ID, "sapphire"), List.of(Tiers.NETHERITE), List.of());
 

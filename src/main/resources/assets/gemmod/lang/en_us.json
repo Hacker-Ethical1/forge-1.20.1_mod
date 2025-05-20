@@ -26,6 +26,11 @@
 
   "item.gemmod.pine_cone": "Pine Cone",
 
+  "item.gemmod.sapphire_helmet": "Sapphire Helmet",
+  "item.gemmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.gemmod.sapphire_leggings": "Sapphire Leggings",
+  "item.gemmod.sapphire_boots": "Sapphire Boots",
+
   "item.tooltip.gemmod.metal_detector": "Finds Ores!",
   "item.tooltip.gemmod.sapphire_staff": "Yeets Mobs!",
 
