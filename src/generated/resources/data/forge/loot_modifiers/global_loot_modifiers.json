@@ -1,7 +1,9 @@
 {
   "entries": [
     "gemmod:metal_detector_from_jungle_temple",
-    "gemmod:pine_cone_from_leaves"
+    "gemmod:metal_detector_from_trail_ruins_suspicious_sand",
+    "gemmod:pine_cone_from_leaves",
+    "gemmod:metal_detector_from_desert_pyramid_suspicious_sand"
   ],
   "replace": false
 }

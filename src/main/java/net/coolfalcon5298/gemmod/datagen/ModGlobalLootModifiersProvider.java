@@ -3,6 +3,7 @@ package net.coolfalcon5298.gemmod.datagen;
 import net.coolfalcon5298.gemmod.GemMod;
 import net.coolfalcon5298.gemmod.item.ModItems;
 import net.coolfalcon5298.gemmod.loot.AddItemModifier;
+import net.coolfalcon5298.gemmod.loot.AddSusSandItemModifier;
 import net.minecraft.data.PackOutput;
 
 import net.minecraft.resources.ResourceLocation;
@@ -26,5 +27,11 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_jungle_temple", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build() }, ModItems.METAL_DETECTOR.get()));
+
+        add("metal_detector_from_trail_ruins_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/trail_ruins_common")).build() }, ModItems.METAL_DETECTOR.get()));
+        add("metal_detector_from_desert_pyramid_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.METAL_DETECTOR.get()));
+
     }
 }
