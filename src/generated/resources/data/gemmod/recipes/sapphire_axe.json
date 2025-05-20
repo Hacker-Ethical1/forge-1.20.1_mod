@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "gemmod:sapphire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AS ",
+    " S "
+  ],
+  "result": {
+    "item": "gemmod:sapphire_axe"
+  },
+  "show_notification": true
+}

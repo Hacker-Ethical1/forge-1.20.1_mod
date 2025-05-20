@@ -3,6 +3,7 @@ package net.coolfalcon5298.gemmod.item;
 import net.coolfalcon5298.gemmod.GemMod;
 import net.coolfalcon5298.gemmod.item.custom.FuelItem;
 import net.coolfalcon5298.gemmod.item.custom.MetalDetectorItem;
+import net.coolfalcon5298.gemmod.item.custom.ModArmorItem;
 import net.coolfalcon5298.gemmod.item.custom.SapphireStaffItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -39,7 +40,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
             () -> new PickaxeItem(ModToolTiers.SAPPHIRE, 0, 0f, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-            () -> new AxeItem(ModToolTiers.SAPPHIRE, 8, -2.9f, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.SAPPHIRE, 3, -2.9f, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
             () -> new ShovelItem(ModToolTiers.SAPPHIRE, -10f, 0f, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
@@ -48,7 +49,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
