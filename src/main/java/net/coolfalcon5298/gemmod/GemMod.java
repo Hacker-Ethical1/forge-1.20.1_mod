@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.coolfalcon5298.gemmod.block.ModBlocks;
 import net.coolfalcon5298.gemmod.item.ModCreativeModeTabs;
 import net.coolfalcon5298.gemmod.item.ModItems;
+import net.coolfalcon5298.gemmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class GemMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
