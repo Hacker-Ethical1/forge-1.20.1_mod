@@ -32,10 +32,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.METAL_DETECTOR.get());
 
                         output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModItems.CORN.get());
 
                         output.accept(ModItems.PINE_CONE.get());
 
                         output.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        output.accept(ModItems.CORN_SEEDS.get());
 
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 

@@ -23,6 +23,7 @@
   "item.gemmod.sapphire_staff": "Sapphire Staff",
 
   "item.gemmod.strawberry": "Strawberry",
+  "item.gemmod.corn": "Corn",
 
   "item.gemmod.pine_cone": "Pine Cone",
 
@@ -32,6 +33,7 @@
   "item.gemmod.sapphire_boots": "Sapphire Boots",
 
   "item.gemmod.strawberry_seeds": "Strawberry Seeds",
+  "item.gemmod.corn_seeds": "Corn Seeds",
 
   "item.tooltip.gemmod.metal_detector": "Finds Ores!",
   "item.tooltip.gemmod.sapphire_staff": "Yeets Mobs!",

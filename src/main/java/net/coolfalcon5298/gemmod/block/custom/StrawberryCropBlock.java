@@ -24,8 +24,7 @@ public class StrawberryCropBlock extends CropBlock {
     }
 
     @Override
-    @NotNull
-    public IntegerProperty getAgeProperty() {
+    public @NotNull IntegerProperty getAgeProperty() {
         return AGE;
     }
 
