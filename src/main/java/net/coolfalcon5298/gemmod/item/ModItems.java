@@ -1,6 +1,7 @@
 package net.coolfalcon5298.gemmod.item;
 
 import net.coolfalcon5298.gemmod.GemMod;
+import net.coolfalcon5298.gemmod.block.ModBlocks;
 import net.coolfalcon5298.gemmod.item.custom.FuelItem;
 import net.coolfalcon5298.gemmod.item.custom.MetalDetectorItem;
 import net.coolfalcon5298.gemmod.item.custom.ModArmorItem;
@@ -54,6 +55,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

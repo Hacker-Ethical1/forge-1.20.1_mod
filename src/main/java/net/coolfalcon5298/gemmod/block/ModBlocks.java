@@ -2,6 +2,7 @@ package net.coolfalcon5298.gemmod.block;
 
 import net.coolfalcon5298.gemmod.GemMod;
 import net.coolfalcon5298.gemmod.block.custom.SoundBlock;
+import net.coolfalcon5298.gemmod.block.custom.StrawberryCropBlock;
 import net.coolfalcon5298.gemmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -70,6 +71,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

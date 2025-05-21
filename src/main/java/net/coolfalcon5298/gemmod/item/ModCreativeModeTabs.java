@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.PINE_CONE.get());
 
+                        output.accept(ModItems.STRAWBERRY_SEEDS.get());
+
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 
                         output.accept(ModBlocks.SOUND_BLOCK.get());
