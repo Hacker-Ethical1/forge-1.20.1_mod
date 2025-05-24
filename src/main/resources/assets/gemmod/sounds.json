@@ -1,0 +1,38 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.gemmod.metal_detector_found_ore",
+    "sounds": [
+      "gemmod:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.gemmod.sound_block_break",
+    "sounds": [
+      "gemmod:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.gemmod.sound_block_step",
+    "sounds": [
+      "gemmod:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.gemmod.sound_block_place",
+    "sounds": [
+      "gemmod:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.gemmod.sound_block_hit",
+    "sounds": [
+      "gemmod:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.gemmod.sound_block_fall",
+    "sounds": [
+      "gemmod:sound_block_fall"
+    ]
+  }
+}

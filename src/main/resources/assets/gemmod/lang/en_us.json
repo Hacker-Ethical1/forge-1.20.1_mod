@@ -52,6 +52,13 @@
   "block.gemmod.sapphire_door": "Sapphire Door",
   "block.gemmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
+  "sounds.gemmod.metal_detector_found_ore": "Metal Detector Jingles",
+  "sounds.gemmod.sound_block_break": "Sound Block Breaks",
+  "sounds.gemmod.sound_block_step": "Player Steps on Sound Block",
+  "sounds.gemmod.sound_block_place": "Player Places Sound Block",
+  "sounds.gemmod.sound_block_hit": "Player Hits Sound Block",
+  "sounds.gemmod.sound_block_fall": "Sound Block Falls",
+
   "entity.minecraft.villager.gemmod.modmaster": "Mod Master",
 
   "creativetab.gem_tab": "Gem Mod"

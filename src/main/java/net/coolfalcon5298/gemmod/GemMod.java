@@ -5,6 +5,7 @@ import net.coolfalcon5298.gemmod.block.ModBlocks;
 import net.coolfalcon5298.gemmod.item.ModCreativeModeTabs;
 import net.coolfalcon5298.gemmod.item.ModItems;
 import net.coolfalcon5298.gemmod.loot.ModLootModifiers;
+import net.coolfalcon5298.gemmod.sound.ModSounds;
 import net.coolfalcon5298.gemmod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -41,6 +42,8 @@ public class GemMod
 
         ModLootModifiers.register(modEventBus);
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

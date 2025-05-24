@@ -5,6 +5,7 @@
     "gemmod:sapphire_ore",
     "gemmod:deepslate_sapphire_ore",
     "gemmod:nether_sapphire_ore",
-    "gemmod:end_stone_sapphire_ore"
+    "gemmod:end_stone_sapphire_ore",
+    "gemmod:sound_block"
   ]
 }
