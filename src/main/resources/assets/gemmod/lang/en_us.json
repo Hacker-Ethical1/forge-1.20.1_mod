@@ -52,5 +52,7 @@
   "block.gemmod.sapphire_door": "Sapphire Door",
   "block.gemmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
+  "entity.minecraft.villager.gemmod.modmaster": "Mod Master",
+
   "creativetab.gem_tab": "Gem Mod"
 }
