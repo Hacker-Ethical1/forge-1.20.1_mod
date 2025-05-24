@@ -35,6 +35,9 @@
   "item.gemmod.strawberry_seeds": "Strawberry Seeds",
   "item.gemmod.corn_seeds": "Corn Seeds",
 
+  "item.gemmod.bar_brawl_music_disc": "Bar Brawl Music Disk",
+  "item.gemmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "block.gemmod.catmint": "Catmint",
 
   "item.tooltip.gemmod.metal_detector": "Finds Ores!",

@@ -34,5 +34,13 @@
     "sounds": [
       "gemmod:sound_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "gemmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
