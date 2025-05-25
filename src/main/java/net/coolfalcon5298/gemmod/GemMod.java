@@ -2,11 +2,14 @@ package net.coolfalcon5298.gemmod;
 
 import com.mojang.logging.LogUtils;
 import net.coolfalcon5298.gemmod.block.ModBlocks;
+import net.coolfalcon5298.gemmod.entity.ModEntities;
+import net.coolfalcon5298.gemmod.entity.client.RhinoRenderer;
 import net.coolfalcon5298.gemmod.item.ModCreativeModeTabs;
 import net.coolfalcon5298.gemmod.item.ModItems;
 import net.coolfalcon5298.gemmod.loot.ModLootModifiers;
 import net.coolfalcon5298.gemmod.sound.ModSounds;
 import net.coolfalcon5298.gemmod.villager.ModVillagers;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -44,6 +47,7 @@ public class GemMod
         ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -79,7 +83,7 @@ public class GemMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }
