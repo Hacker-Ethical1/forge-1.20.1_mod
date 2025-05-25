@@ -45,6 +45,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.SAPPHIRE_STAFF.get());
 
+                        output.accept(ModItems.RHINO_SPAWN_EGG.get());
+
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 
                         output.accept(ModBlocks.SAPPHIRE_STAIRS.get());

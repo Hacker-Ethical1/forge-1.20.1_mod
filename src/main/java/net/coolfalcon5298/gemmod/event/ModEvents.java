@@ -99,8 +99,8 @@ public class ModEvents {
 
             // Level 4 Trades
             trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 1),
-                    new ItemStack(ModItems.METAL_DETECTOR.get(), 35),
+                    new ItemStack(Items.EMERALD, 35),
+                    new ItemStack(ModItems.METAL_DETECTOR.get(), 1),
                     4, 8, 0.034f));
             trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 32),
@@ -132,6 +132,10 @@ public class ModEvents {
         rareTrades.add((pTrader, pRandom) -> new MerchantOffer(
                 new ItemStack(Items.EMERALD, 32),
                 new ItemStack(ModItems.METAL_DETECTOR.get(), 1),
+                1, 6, 0.35f));
+        rareTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemStack(Items.EMERALD, 48),
+                new ItemStack(ModItems.RHINO_SPAWN_EGG.get(), 1),
                 1, 6, 0.35f));
     }
 

@@ -64,5 +64,8 @@
 
   "entity.minecraft.villager.gemmod.modmaster": "Mod Master",
 
+  "entity.gemmod.rhino": "Rhino",
+  "item.gemmod.rhino_spawn_egg": "Rhino Spawn Egg",
+
   "creativetab.gem_tab": "Gem Mod"
 }
